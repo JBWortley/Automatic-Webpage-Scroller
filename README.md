@@ -20,11 +20,11 @@ To install xdotool, run:
 To install:
 1. Clone this repository to your machine.
 2. In terminal, navigate to the file and run this command:
-sudo chmod u+x AutomaticPageScroller
+- sudo chmod u+x AutomaticPageScroller
 
 To run:
 1. Open your browser and get your tabs ready. (I like to keep mine bookmarked with the Home button.)
 2. In terminal, run the script with the command:
-./AutomaticPageScroller
+- ./AutomaticPageScroller
 3. Press any key on the keyboard and switch back to your browser.
 4. After 10 seconds, the browser will enter full-screen mode (F11) and press the down button twice every 2 seconds.
