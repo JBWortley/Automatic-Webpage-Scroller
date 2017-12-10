@@ -14,8 +14,8 @@ PLEASE NOTE:
 - This script depends on xdotool. You will need to install this dependency before running script.
 
 To install xdotool, run:
-sudo apt-get install xdotool
-sudo apt-get update
+- sudo apt-get install xdotool
+- sudo apt-get update
 
 To install:
 1. Clone this repository to your machine.
