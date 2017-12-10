@@ -1,0 +1,26 @@
+#!/bin/bash
+echo Welcome to J Wortley\'s Automatic Webpage Scroller... 
+read -n 1 -s -r -p "To start this script, press any key on your keyboard and go to your browser."
+echo 
+echo Starting in: 
+for((n=10;n>=0;n--))
+{
+	echo $n...
+	sleep 1
+}
+echo Setting the view to full-screen. Scrolling...
+xdotool key F11
+while true
+do
+	sleep 4
+	for((n=0;n<50;n++))
+	{
+		xdotool key Down
+		xdotool key Down
+		sleep 2
+	}
+	xdotool key Home
+	xdotool key ctrl+shift+Tab
+	xdotool key F5
+done
+exit 0
